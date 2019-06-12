@@ -3,11 +3,12 @@
 export  default {
   data() {
     return {
-      name: 'guoxc',
+      logo: '',
     };
   },
   created() {
-    this.name = 'guoxunchao';
-    console.log(this.name);
+    // this.logo = require('/src/assets/logo.png');
+    const logo = require('../../assets/logo.png');
+
   },
 };

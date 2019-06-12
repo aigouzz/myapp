@@ -80,12 +80,12 @@
         </a>
       </li>
     </ul>
-    <div v-html="html"></div>
+    <load></load>
   </div>
 </template>
 
 <script>
-  import  sanitizeHtml from  'sanitize-html';
+  import load from './Loader/index.vue';
 export default {
   name: 'HelloWorld',
   data () {
@@ -95,9 +95,11 @@ export default {
     }
   },
   mounted() {
-    this.html = sanitizeHtml(`<div class="index">这是测试！！！</div><p style="overflow: hidden"></p>`);
-    console.log(this.html);
-  }
+    console.log(load);
+  },
+  components: {
+    load,
+  },
 }
 </script>
 

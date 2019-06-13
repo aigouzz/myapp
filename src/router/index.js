@@ -1,7 +1,6 @@
-
-import Past from '../components/Past';
-import Load from '../components/Loader';
-import Next from '../components/Next';
+import Past from '../components/Past/index.vue';
+import Load from '../components/Loader/index.vue';
+import Next from '../components/Next/index.vue';
 
 export  default [
   {

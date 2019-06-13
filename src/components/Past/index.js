@@ -1,5 +1,4 @@
 
-
 export  default {
   data() {
     return {
@@ -8,6 +7,6 @@ export  default {
   },
   created() {
     this.name = 'guoxunchao';
-    console.log(this.name);
+    console.log('past');
   },
 };

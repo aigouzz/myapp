@@ -13,6 +13,8 @@ const router = new VueRouter({
   routes,
 });
 
+console.log(routes);
+
 const store = new Vuex.Store({
   mutations : {},
   state: {},

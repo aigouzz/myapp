@@ -1,15 +1,27 @@
-import App from '../App';
-import Second from '../components/Past';
+
+import Past from '../components/Past';
+import Load from '../components/Loader';
+import Next from '../components/Next';
 
 export  default [
   {
-    path: '/index',
-    name: 'app',
-    component: App
+    path: '/past',
+    name: 'past',
+    component: Past,
   },
   {
-    path: '/sec',
-    name: 'second',
-    component: Second,
+    path: '/load',
+    name: 'load',
+    component: Load,
+  },
+  {
+    path: '/next',
+    name: 'next',
+    component: Next,
+  },
+  {
+    path: '*',
+    name: 'all',
+    component: Past,
   },
 ]

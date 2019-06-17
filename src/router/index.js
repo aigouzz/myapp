@@ -22,5 +22,6 @@ export  default [
     path: '*',
     name: 'all',
     component: Past,
+    children: {},
   },
 ]
